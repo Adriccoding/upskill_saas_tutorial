@@ -31,6 +31,8 @@ gem 'jbuilder', '2.5.0'
 
 #imported bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
+#import font awesome  in sass gem of library of icons
+gem 'font-awesome-sass', '~> 5.12.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record

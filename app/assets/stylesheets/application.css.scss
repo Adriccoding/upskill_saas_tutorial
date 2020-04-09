@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 
 h1, h2, h3 {
@@ -33,32 +35,14 @@ h1, h2, h3 {
     border:none;
 }
 
-.navbar-default .navbar-brand{ //changes navbar header
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.home-callout p > a{ //changes navbar and embedded link to white
     color:white;
-}
-
-.navbar-default .navbar-brand:hover{
-    color:white;
-    opacity:0.75;
-}
-
-.navbar-default .navbar-nav > li > a{ //changes nav bar list items
-    color:white;
-}
-
-.navbar-default .navbar-nav > li > a:hover{ //changes hover over li
-    color:white;
-    opacity:0.75;
-}
-
-.home-callout p > a{
-    color:white;
-    text-decoration:underline;
-}
-
-.home-callout p > a:hover{
-    color:white;
-    opacity:0.75;
+    &:hover{         // sets hover loos
+        color:white; 
+        opacity:0.75;
+    }
 }
 
 .home-callout{ //smooths out grandiant for header texts
