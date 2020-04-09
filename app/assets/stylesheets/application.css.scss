@@ -29,17 +29,41 @@ h1, h2, h3 {
 
 }
 
-.navbar{
+.navbar{ //fixes extra nav bar border, making smooth gradiant
     border:none;
 }
 
-.navbar-brand{
+.navbar-default .navbar-brand{ //changes navbar header
     color:white;
 }
 
-.home-callout{
+.navbar-default .navbar-brand:hover{
+    color:white;
+    opacity:0.75;
+}
+
+.navbar-default .navbar-nav > li > a{ //changes nav bar list items
+    color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{ //changes hover over li
+    color:white;
+    opacity:0.75;
+}
+
+.home-callout p > a{
+    color:white;
+    text-decoration:underline;
+}
+
+.home-callout p > a:hover{
+    color:white;
+    opacity:0.75;
+}
+
+.home-callout{ //smooths out grandiant for header texts
     margin-top:-20px;
     padding-top:50px;
-    padding-bottom:50px;
+    padding-bottom:150px;
     color:white;
 }
