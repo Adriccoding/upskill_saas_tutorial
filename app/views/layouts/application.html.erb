@@ -3,13 +3,15 @@
   <head>
     <title>It's my website!</title>
     <%= csrf_meta_tags %>
-
+    
     <link href="//fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class = "container">
+      <%= yield %>
+    </div>
   </body>
 </html>
