@@ -19,10 +19,21 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+////////////////////////////////////////////////////////////////////////
 
-h1, h2, h3 {
+// Fonts
+
+////////////////////////////////////////////////////////////////////////
+
+h1, h2, h3, {
     font-family: 'Merriweather', serif;
 }
+
+////////////////////////////////////////////////////////////////////////
+
+// Navbar css fixes
+
+////////////////////////////////////////////////////////////////////////
 
 .home-callout, .navbar{ //adds gradiant
     background: #7474BF;  /* fallback for old browsers */
@@ -35,6 +46,11 @@ h1, h2, h3 {
     border:none;
 }
 
+.navbar-brand{
+    font-family: 'Merriweather', serif;
+    font-weight:900;
+}
+        
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a,
 .home-callout p > a{ //changes navbar and embedded link to white
@@ -44,6 +60,23 @@ h1, h2, h3 {
         opacity:0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar{ //Hamberger icon lines
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle{ //Hamber icon @ border
+    border: 2px solid white;
+    &:hover, &:focus{
+        background-color:#348AC7;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////
+
+// "welcome to devmatch" title card
+
+////////////////////////////////////////////////////////////////////////
 
 .home-callout{ //smooths out grandiant for header texts
     margin-top:-20px;
