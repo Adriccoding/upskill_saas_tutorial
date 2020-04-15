@@ -33,6 +33,8 @@ gem 'jbuilder', '2.5.0'
 gem 'bootstrap-sass', '3.3.7'
 #import font awesome  in sass gem of library of icons
 gem 'font-awesome-sass', '~> 5.12.0'
+#use hirb for better database table in console
+gem 'hirb', '~> 0.7.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
