@@ -30,7 +30,7 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 #imported bootstrap library for front-end UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 #import font awesome  in sass gem of library of icons
 gem 'font-awesome-sass', '~> 5.12.0'
 #use hirb for better database table in console
